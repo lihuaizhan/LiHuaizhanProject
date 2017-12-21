@@ -6,73 +6,78 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="lihuaizhan.bwie.com.lihuaizhanproject.view.MainActivity">
-
-    <android.support.v4.view.ViewPager
-        android:id="@+id/page"
+    <com.hjm.bottomtabbar.BottomTabBar
+        android:id="@+id/bottom_tab_bar"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1">
-
-
-    </android.support.v4.view.ViewPager>
-
-    <RadioGroup
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="9"
-        android:orientation="horizontal"
-        android:id="@+id/grp"
         >
+    </com.hjm.bottomtabbar.BottomTabBar>
+    <!--<android.support.v4.view.ViewPager-->
+        <!--android:id="@+id/page"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1">-->
 
-        <RadioButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@drawable/shouye"
-            android:button="@null"
-            android:id="@+id/btn1"
-            />
 
-        <RadioButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@drawable/fenlei"
-            android:button="@null"
-            android:id="@+id/btn2"
+    <!--</android.support.v4.view.ViewPager>-->
 
-            />
+    <!--<RadioGroup-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="9"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:id="@+id/grp"-->
+        <!--&gt;-->
 
-        <RadioButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@drawable/faxian"
-            android:button="@null"
-            android:id="@+id/btn3"
+        <!--<RadioButton-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@drawable/shouye"-->
+            <!--android:button="@null"-->
+            <!--android:id="@+id/btn1"-->
+            <!--/>-->
 
-            />
+        <!--<RadioButton-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@drawable/fenlei"-->
+            <!--android:button="@null"-->
+            <!--android:id="@+id/btn2"-->
 
-        <RadioButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@drawable/gouwu"
-            android:button="@null"
-            android:id="@+id/btn4"
+            <!--/>-->
 
-            />
+        <!--<RadioButton-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@drawable/faxian"-->
+            <!--android:button="@null"-->
+            <!--android:id="@+id/btn3"-->
 
-        <RadioButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@drawable/wode"
-            android:button="@null"
-            android:id="@+id/btn5"
+            <!--/>-->
 
-            />
+        <!--<RadioButton-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@drawable/gouwu"-->
+            <!--android:button="@null"-->
+            <!--android:id="@+id/btn4"-->
 
-    </RadioGroup>
+            <!--/>-->
+
+        <!--<RadioButton-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@drawable/wode"-->
+            <!--android:button="@null"-->
+            <!--android:id="@+id/btn5"-->
+
+            <!--/>-->
+
+    <!--</RadioGroup>-->
 
 </LinearLayout>

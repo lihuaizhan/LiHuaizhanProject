@@ -1,8 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#875ee7"
     >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@drawable/bbbbbbbbbbbbbbbbbb"
+    android:id="@+id/ll"
+    >
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/tou_xiang"
+        fresco:roundAsCircle="true"
+        fresco:failureImage="@drawable/failure"
+        fresco:placeholderImage="@drawable/placehold"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="40dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登录/注册>"
+        android:layout_marginLeft="100dp"
+        android:layout_centerVertical="true"
+        android:textColor="#ffffff"
+        android:id="@+id/login"
+        />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_alignParentRight="true"
+    android:layout_marginTop="30dp"
+    android:layout_marginRight="40dp"
+    >
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/sz"
+        android:id="@+id/sz"
+        />
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/xiaoxi"
+        android:id="@+id/xiaoxi"
+        android:layout_marginLeft="20dp"
+        />
+</LinearLayout>
+</RelativeLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/jingdong_wodes"
+        android:id="@+id/tz"
+        android:scaleType="fitXY"
+        />
 
 </LinearLayout>

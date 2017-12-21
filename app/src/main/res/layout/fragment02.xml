@@ -4,37 +4,38 @@
     android:layout_height="match_parent"
 
     >
-    <!--<ListView-->
-    <!--android:layout_width="0dp"-->
-    <!--android:layout_height="match_parent"-->
-    <!--android:id="@+id/left_lv"-->
-    <!--android:layout_weight="1"-->
-    <!--&gt;</ListView>-->
-    <!--<ScrollView-->
-    <!--android:layout_width="0dp"-->
-    <!--android:layout_height="match_parent"-->
-    <!--android:layout_weight="4"-->
-    <!--android:fillViewport="true"-->
-    <!--&gt;-->
-    <!--<LinearLayout-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="match_parent"-->
-    <!--android:orientation="vertical"-->
-    <!--&gt;-->
-    <!--<com.youth.banner.Banner-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="200dp"-->
-    <!--android:id="@+id/banner"-->
-    <!--&gt;</com.youth.banner.Banner>-->
-    <!--<ExpandableListView-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="match_parent"-->
-    <!--android:id="@+id/elv"-->
-    <!--&gt;</ExpandableListView>-->
+    <ListView
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:id="@+id/left_lv"
+    android:layout_weight="1"
+    ></ListView>
+    <ScrollView
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="4"
+    android:fillViewport="true"
+    >
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <com.youth.banner.Banner
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+        android:layout_margin="10dp"
+    android:id="@+id/banner"
+    ></com.youth.banner.Banner>
+  <android.support.v7.widget.RecyclerView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/right_rc"
+      ></android.support.v7.widget.RecyclerView>
 
 
-    <!--</LinearLayout>-->
+    </LinearLayout>
 
 
-    <!--</ScrollView>-->
+    </ScrollView>
 </LinearLayout>
